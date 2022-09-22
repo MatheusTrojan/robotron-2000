@@ -37,6 +37,49 @@ main {
     position: relative;
 }
 
+.alterar {
+    background: rgba(0,0,0,0.6);
+    border-radius: 0.2rem;
+    color: rgba(255,255,255,0.8);
+    margin: 2px;
+    padding: 0.3rem;
+    transition: 0.3s ease-in-out;
+    width: 200px;
+}
+
+.botao--azul:hover {
+    background: rgb(43, 43, 109);
+}
+
+.botao--amarelo:hover {
+    background: rgb(137, 151, 59);
+}
+
+.botao--branco:hover {
+    background: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.botao--preto:hover {
+    background: rgb(0, 0, 0);
+}
+
+.botao--rosa:hover {
+    background: rgb(155, 62, 158);
+}
+.botao--vermelho:hover {
+    background: rgb(218, 38, 38);
+}
+
+.botoes {
+   position: relative;
+   right: 5%;
+   bottom: 10%;
+   display: flex;
+   box-sizing: border-box;
+   max-width: 30vw;
+}
+
 .robo {
     height: 110%;
     z-index: 1;
